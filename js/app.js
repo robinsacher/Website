@@ -29,7 +29,7 @@ function showSection(sectionId) {
 
   // Ändere die Hintergrundfarbe der gradient-box basierend auf der aktiven Sektion
   const gradientBox = document.querySelector('.gradient-box');
-  gradientBox.classList.remove('home', 'games', 'about', 'lebenslauf'); // Entferne alle spezifischen Klassen
+  gradientBox.classList.remove('home', 'games', 'about', 'lebenslauf', 'tools'); // Entferne alle spezifischen Klassen
   if (sectionId === 'home') {
     gradientBox.classList.add('home');
   } else if (sectionId === 'games') {
@@ -38,5 +38,7 @@ function showSection(sectionId) {
     gradientBox.classList.add('about');
   }else if (sectionId === 'lebenslauf') {
     gradientBox.classList.add('lebenslauf');
+  }else if (sectionId === 'tools') {
+    gradientBox.classList.add('tools');
   }
 }
