@@ -33,9 +33,24 @@
       <a href="#games" onclick="showSection('games')">Games</a>
       <a href="#tools" onclick="showSection('tools')">Tools</a>
       <a href="#lebenslauf" onclick="showSection('lebenslauf')">Lebenslauf</a>
+      <a href="#login" onclick="showSection('login')">Login</a>
   </nav>
 
 <main class="gradient-box">
+  <section id="login">
+    <h2>Login</h2>
+    <form id="authForm" method="post">
+      <label for="username">Benutzername:</label>
+      <input type="text" id="username" name="username" required>
+
+      <label for="password">Passwort:</label>
+      <input type="password" id="password" name="password" required>
+
+      <button type="registration">Registrieren</button>
+      <button type="login">Login</button>
+    </form>
+  </section>
+
   <section id="home" class="active">
     <h2>Startseite</h2>
     <p>Willkommen auf unserer Website!</p>
