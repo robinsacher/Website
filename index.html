@@ -25,94 +25,219 @@
 <body class="preload">
 
 <header>
-  <h1>GameSite</h1>
+  <h1>Portfolio Website</h1>
 </header>
   <nav>
       <a href="#home" onclick="showSection('home')">Home</a>
-      <a href="#about" onclick="showSection('about')">Über uns</a>
-      <a href="#games" onclick="showSection('games')">Games</a>
+      <a href="#about" onclick="showSection('about')">Über mich</a>
+      <a href="#projekte" onclick="showSection('projekte')">Projekte</a>
       <a href="#tools" onclick="showSection('tools')">Tools</a>
       <a href="#lebenslauf" onclick="showSection('lebenslauf')">Lebenslauf</a>
-      <a href="#login" onclick="showSection('login')">Login</a>
   </nav>
 
 <main class="gradient-box">
-  <section id="login">
-    <h2>Login</h2>
-    <form id="authForm" method="post">
-      <label for="username">Benutzername:</label>
-      <input type="text" id="username" name="username" required>
-
-      <label for="password">Passwort:</label>
-      <input type="password" id="password" name="password" required>
-
-      <button type="registration">Registrieren</button>
-      <button type="login">Login</button>
-    </form>
-  </section>
-
   <section id="home" class="active">
-    <h2>Startseite</h2>
-    <p>Willkommen auf unserer Website!</p>
-  </section>
-
-  <section id="about">
-    <h2>Über uns</h2>
-    <p>Wir sind 2 Schüler aus der Berufsschule Baden,
-      dies ist unsere erstellte Website,
-      sieh dich um und entdecke viele tolle Features.</p>
-  </section>
-
-  <section id="games">
-    <h2>Games</h2>
-    <p>Hier kannst du unsere projekte begutachten.</p>
-  </section>
-
-  <section id="tools">
-    <h2>Tools</h2>
-    <p>Mit folgenden Tools haben wir gearbeitet und Erfahrung in verschiedenen Breichen der Informatik gesammelt.</p>
-    <div class="tools-grid">
-      <div class="tool-item">
-        <h3>GitHub</h3>
-        <img src="Pictures/GitHubLogo.png" alt="GitHub Logo">
-        <p>Über GitHub haben wir unsere Projekte verwaltet.</p>
-      </div>
-      <div class="tool-item">
-        <h3>GitLab</h3>
-        <img src="Pictures/GitLabLogo.png" alt="GitLab Logo">
-        <p>Über GitLab haben wir unsere Projekte verwaltet.</p>
-      </div>
-      <div class="tool-item">
-        <h3>JetBrains IntelliJ IDEA</h3>
-        <img src="Pictures/JetBRainsIntelliJLogo.png" alt="IntelliJ Logo">
-        <p>Mit JetBrains IntelliJ IDEA haben wir viele verschiedene Projeke umgesetzt.</p>
-      </div>
-      <div class="tool-item">
-        <h3>JetBrains Rider</h3>
-        <img src="Pictures/JetBrainsRiderLogo.png" alt="Rider Logo">
-        <p>Mit JetBrains Rider haben wir viele Applikationen mit der Programmierschprache C# realisiert.</p>
-      </div>
-      <div class="tool-item">
-        <h3>JetBrains WebStorm</h3>
-        <img src="Pictures/JetBrainsWebStormLogo.png" alt="WebStorm Logo">
-        <p>In JetBrains WebStorm haben wir unterschiedliche Websiten mit HTML, CSS und Java Script programmiert und entworfen.</p>
-      </div>
-      <div class="tool-item">
-        <h3>JetBrains PyCharm</h3>
-        <img src="Pictures/JetBrainsPyCharmLogo.png" alt="PyCharm Logo">
-        <p>In JetBrains PyCharm haben wir unterschiedliche Projekte mit Pyhton implementiert.</p>
-      </div>
-      <div class="tool-item">
-        <h3>Unity</h3>
-        <img src="Pictures/UnityLogo.png" alt="Unity Logo">
-        <p>Mit Unity haben wir ein 2D Jump and Run Game umgesetzt.</p>
+    <h2>Willkommen</h2>
+    <div class="grid">
+      <div class="item-übermich">
+        <p>Willkommen auf meiner Website!</p>
+        <p>Auf dieser Website werden persönliche Informationen über mich dargestellt.</p>
+        <p>Du siehst zum Beispiel Projekte, die ich erstellt habe und Tools mit denen ich gearbeitet habe.</p>
+        <p>Ich wünsche dir viel Spass beim Durchstöbern meiner Website.</p>
       </div>
     </div>
   </section>
 
+  <section id="about">
+    <h2>Über mich</h2>
+    <div class="grid">
+      <div class="item-übermich">
+        <p>Ich bin ein Informatikmittelschüler an der Informatikmittelschule in Baden und zur Zeit 17 Jahre alt. Ich habe diese Website erstellt, um meine Projekte und Informationen über mich zu präsentieren.</p>
+        <p>Nach dem Abschluss der Bezirksschule habe ich mich entschieden die Informatikmittelschule in Baden zu besuchen. Ich habe mich für die IMS entschieden, weil ich mich sehr für Informatik interessiere. Durch die Vielseitige Ausbildung konnte ich Erfahrungen in vielen unterschiedlichen Bereichen sammeln. Zum Beispiel habe ich schon viele Applikationen mit der Programmierspra-che C# umgesetzt. Angefangen habe ich mit den Grundlagen, wie der Erstellung einer Konsolen-applikation. Im Verlaufe der Zeit habe ich dann erste Projekte mit Windows Forms umgesetzt. Weiter ging es mit kleinen Spielen in Unity und RESTful Web APIs in ASP.NET Core. Auch in der Webentwicklung durfte ich schon viele Erfahrungen sammeln. Angefangen hat es bei den Grund-lagen von HTML und CSS, über die Gestaltung von Benutzeroberflächen bis zur Frontend Ent-wicklung mit JavaScript. Neben der Entwicklung von Applikationen und Websites habe ich auch schon Erfahrung SQL und NoSQL-Datenbanken gesammelt, Scripts mit Powershell geschrieben, Applikationen mit AWS veröffentlicht. Gelernt, was agile Methoden sind und mein eigenes Netz-werk geplant und umgesetzt.</p>
+        <p>Neben meinen fachlichen Kompetenzen bringe ich auch eine hohe Motivation und einen starken Teamgeist mit. In meiner Freizeit Spiele ich Handball in dem Verein TV Magden. Willen und Zu-sammenhalt in einem Team ist mir persönlich sehr wichtig, da man so gemeinsam sehr vieles erreichen kann. Neben dem Handball arbeite ich in meiner Freizeit sehr gerne an Projekten. Zur-zeit erstelle ich eine Website für dem Wasserfahrverein Ryburg Möhlin, welche für das Eidge-nössische Weidlingswettfahren 2026 Sponsoreneinahmen bringen und die Wettkämpfer infor-mieren soll. </p>
+      </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projekte">
+    <h2>Projekte</h2>
+    <p>Hier kannst du meine projekte anschauen, welche ich während der Ausbildung an der Informatikmittelschule Baden erstellt habe.</p>
+    <div class="grid">
+      <div class="item">
+        <h3>Portfolio Website</h3>
+        <p>Auf dieser Seite präsentiere ich informationen, wie Projekte von mir und Tools, die ich verwendet habe, um diese Website zu erstellen.</p>
+      </div>
+
+      <div class="item">
+        <h3>RPG-Game</h3>
+        <p>Hier habe ich an einem RPG-Game auf der C# konsole gearbeitet. Damit wir dies umsetzen konnten haben wir mit der RogueSharp library mit RLNET gearbeitet.</p>
+      </div>
+
+      <div class="item">
+        <h3>Password Manager</h3>
+        <p>Ich habe mit Windows Forms einen Passwort manager mit Verschlüsselung implementiert.</p>
+      </div>
+
+      <div class="item">
+        <h3>Jump & Run</h3>
+        <p>Mit Unity habe ich ein Jump & Run Game entwickelt</p>
+      </div>
+
+      <div class="item">
+        <h3>Pong Game</h3>
+        <p>Mit der Programmiersprache Python und der Library PyGame habe ich ein Pong-Game programmiert, welches man lokal mit Freunden spielen kann.</p>
+      </div>
+
+      <div class="item">
+        <h3>Left Center Right</h3>
+        <p>Ich habe das Spiel Left-Center-Right auf der C# Konsole auf der Basis von OOP umgesetzt.</p>
+      </div>
+
+      <div class="item">
+        <h3>Tic Tac Toe</h3>
+        <p>Ich habe das Spiel Tic Tac Toe als Webapplikation umgesetzt.</p>
+      </div>
+
+      <div class="item">
+        <h3>Spiele API</h3>
+        <p>Ich habe eine API implementiert, mit welcher man Scheren Stein Papier und russisches Roulette spielen kann.</p>
+      </div>
+
+      <div class="item">
+        <h3>Currency Calculator</h3>
+        <p>Mit Windows Forms habe ich eine Applikation erstellt, mit der man Währungen umrechnen kann.</p>
+      </div>
+
+      <div class="item">
+        <h3>Vokabeltrainer</h3>
+        <p>Mit C# habe ich einen Vokabeltrainer auf der Konsole umgesetzt</p>
+      </div>
+
+      <div class="item">
+        <h3>Dockerisierte Anwendugn</h3>
+        <p>Mit docker habe ich Anwendungen dockerisiert.</p>
+      </div>
+
+      <div class="item">
+        <h3>Mannschaftsverwaltungstool</h3>
+        <p>Ich habe eine API implementiert, mit welcher man Handballmanschaften verwalten kann. Die API bietet die Möglichkeit ein Login zu erstellen. Die API habe ich mit Postman getestet.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="tools">
+    <h2>Tools</h2>
+    <p>Mit folgenden Tools haben wir gearbeitet und Erfahrung in verschiedenen Bereichen der Applikationsentwicklung gesammelt.</p>
+    <div class="grid">
+      <div class="item">
+        <h3>GitHub</h3>
+        <img src="Pictures/GitHubLogo.png" alt="GitHub Logo">
+        <p>Über GitHub haben wir unsere Projekte verwaltet.</p>
+      </div>
+
+      <div class="item">
+        <h3>Copilot</h3>
+        <img src="Pictures/GitHubCopilotLogo.png" alt="Copilot">
+        <p>Mit Copilot konnte ich sehr viel effizienter programmieren.</p>
+      </div>
+
+      <div class="item">
+        <h3>GitLab</h3>
+        <img src="Pictures/GitLabLogo.png" alt="GitLab Logo">
+        <p>Über GitLab haben wir unsere Projekte verwaltet.</p>
+      </div>
+
+      <div class="item">
+        <h3>JetBrains IntelliJ IDEA</h3>
+        <img src="Pictures/JetBRainsIntelliJLogo.png" alt="IntelliJ Logo">
+        <p>Mit JetBrains IntelliJ IDEA haben wir viele verschiedene Projekte umgesetzt.</p>
+      </div>
+
+      <div class="item">
+        <h3>JetBrains Rider</h3>
+        <img src="Pictures/JetBrainsRiderLogo.png" alt="Rider Logo">
+        <p>Mit JetBrains Rider haben wir viele Applikationen mit der Programmiersprache C# realisiert.</p>
+      </div>
+
+      <div class="item">
+        <h3>JetBrains WebStorm</h3>
+        <img src="Pictures/JetBrainsWebStormLogo.png" alt="WebStorm Logo">
+        <p>In JetBrains WebStorm haben wir unterschiedliche Websites mit HTML, CSS und JavaScript programmiert und entworfen.</p>
+      </div>
+
+      <div class="item">
+        <h3>JetBrains PyCharm</h3>
+        <img src="Pictures/JetBrainsPyCharmLogo.png" alt="PyCharm Logo">
+        <p>In JetBrains PyCharm haben wir unterschiedliche Projekte mit Python implementiert.</p>
+      </div>
+
+      <div class="item">
+        <h3>Visual Studio Code</h3>
+        <img src="Pictures/VisualStudioCodeLogo.png" alt="Visual Studio Code Logo">
+        <p>Mit Visual Studio Code haben wir unterschiedliche Projekte umgesetzt.</p>
+      </div>
+
+      <div class="item">
+        <h3>Visual Studio</h3>
+        <img src="Pictures/VisualStudioLogo.png" alt="Visual Studio Logo">
+        <p>Mit Visual Studio haben wir unterschiedliche Projekte umgesetzt.</p>
+      </div>
+
+      <div class="item">
+        <h3>Unity</h3>
+        <img src="Pictures/UnityLogo.png" alt="Unity Logo">
+        <p>Mit Unity haben wir ein 2D Jump & Run Game umgesetzt.</p>
+      </div>
+
+      <div class="item">
+        <h3>Docker</h3>
+        <img src="Pictures/DockerLogo.png" alt="Docker">
+        <p>Mit docker habe ich Anwendungen dockerisiert.</p>
+      </div>
+
+      <div class="item">
+        <h3>Postman</h3>
+        <img src="Pictures/PostmanLogo.png" alt="Postman">
+        <p>Mit Postman habe ich APIs getestet.</p>
+      </div>
+
+      <div class="item">
+        <h3>AWS</h3>
+        <img src="Pictures/AWSLogo.png" alt="AWS">
+        <p>Mit AWS habe ich Anwendungen veröffentlicht.</p>
+      </div>
+    </div>
+  </section>
   <section id="lebenslauf">
     <h2>Lebenslauf</h2>
     <p>Hier ist unser Lebenslauf ersichtlich</p>
+    <div class="timeline">
+      <div class="container left">
+        <div class="content">
+          <h2>2017</h2>
+          <p>Lorem ipsum..</p>
+        </div>
+      </div>
+      <div class="container right">
+        <div class="content">
+          <h2>2016</h2>
+          <p>Lorem ipsum..</p>
+        </div>
+      </div>
+      <div class="container left">
+        <div class="content">
+          <h2>2017</h2>
+          <p>Lorem ipsum..</p>
+        </div>
+      </div>
+      <div class="container right">
+        <div class="content">
+          <h2>2016</h2>
+          <p>Lorem ipsum..</p>
+        </div>
+      </div>
+    </div>
   </section>
 </main>
 
