@@ -269,7 +269,6 @@ body.preload {
 }
 
 body {
-  margin: 0;
   padding: 0;
   opacity: 1;
   transition: opacity 1s;
@@ -317,14 +316,16 @@ header {
 h1{
   font-size: 50px;
   color: white;
+  margin: 0;
 }
+
 nav {
   display: flex;
   justify-content: center;
   background-color: #444;
   position: fixed;
   width: 100%;
-  top: 10rem;
+  top: 6rem;
   z-index: 1;
   margin: 0;
 }
@@ -332,7 +333,7 @@ nav {
 nav a {
   color: white;
   font-size: 20px;
-  padding: 2rem;
+  padding: 1.5rem;
   text-decoration: none;
 }
 
@@ -341,7 +342,7 @@ nav a:hover {
 }
 
 main {
-  margin-top: 7rem;
+  margin-top: 2rem;
 }
 
 section {
@@ -399,7 +400,8 @@ h2{
   transition: transform 0.07s, box-shadow 0.3s;
 }
 
-.item-übermich{
+.item-übermich,
+.item-home{
   background: white;
   border: 1px solid black;
   border-radius: 15px;
@@ -412,6 +414,7 @@ h2{
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
   transition: transform 0.07s, box-shadow 0.3s;
 }
+
 
 .item:hover,
 .item-übermich:hover{
@@ -437,7 +440,7 @@ h2{
 .item p ,
 .item-übermich p {
   margin-top: 0px;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
